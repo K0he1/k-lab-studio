@@ -14,6 +14,11 @@ const projects = [
     url: "https://flood-risk.k-lab-studio.com",
     status: "LIVE",
   },
+  {
+    name: "iDeCo 積立シミュレーター",
+    description: "掛金の所得控除、運用益、受取時の税額をまとめて概算するiDeCoシミュレーター。",
+    status: "BUILDING",
+  },
 ];
 
 export default function Home() {
@@ -93,7 +98,11 @@ export default function Home() {
                 <span className="project-number">{String(index + 1).padStart(2, "0")}</span>
                 <span className="project-status">{project.status}</span>
               </div>
-              <h3><a href={project.url} target="_blank" rel="noreferrer">{project.name}</a></h3>
+              <h3>
+                {project.url ? (
+                  <a href={project.url} target="_blank" rel="noreferrer">{project.name}</a>
+                ) : project.name}
+              </h3>
               <p>{project.description}</p>
             </article>
           ))}
