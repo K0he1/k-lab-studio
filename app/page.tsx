@@ -9,7 +9,7 @@ const projects = [
     status: "LIVE",
   },
   {
-    name: "洪水リスクの計算例",
+    name: "洪水リスク評価サービス",
     description: "気候シナリオ，浸水深，被害率，期待被害額の関係を紹介する計算例ページ．",
     url: "https://flood-risk.k-lab-studio.com",
     status: "LIVE",
@@ -17,7 +17,8 @@ const projects = [
   {
     name: "iDeCo 積立シミュレーター",
     description: "掛金の所得控除、運用益、受取時の税額をまとめて概算するiDeCoシミュレーター。",
-    status: "BUILDING",
+    url: "https://ideco.k-lab-studio.com",
+    status: "LIVE",
   },
 ];
 
