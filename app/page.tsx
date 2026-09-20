@@ -9,12 +9,6 @@ const projects = [
     status: "LIVE",
   },
   {
-    name: "洪水リスク評価サービス",
-    description: "気候シナリオ，浸水深，被害率，期待被害額の関係を紹介する計算例ページ．",
-    url: "https://flood-risk.k-lab-studio.com",
-    status: "LIVE",
-  },
-  {
     name: "iDeCo 積立シミュレーター",
     description: "掛金の所得控除、運用益、受取時の税額をまとめて概算するiDeCoシミュレーター。",
     url: "https://ideco.k-lab-studio.com",
@@ -114,7 +108,7 @@ export default function Home() {
         <p className="eyebrow">CONTACT</p>
         <h2>Contact</h2>
         <p className="section-copy">
-          仕事の依頼や制作物についてのお問い合わせはこちらから。送信された内容は、回答のためAzure Communication Services Emailを通じてサイト管理者へ届けられます。
+          仕事の依頼や制作物についてのお問い合わせはこちらから。
         </p>
         <ContactForm />
         <p className="contact-privacy-note">
