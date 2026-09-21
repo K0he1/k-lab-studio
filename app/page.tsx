@@ -14,6 +14,12 @@ const projects = [
     url: "https://ideco.k-lab-studio.com",
     status: "LIVE",
   },
+  {
+    name: "積立投資シミュレーター",
+    description: "初期投資額、毎月の積立額、想定利回りから、資産推移と税引前の概算資産額を試算するWebアプリ。",
+    url: "https://investment.k-lab-studio.com",
+    status: "LIVE",
+  },
 ];
 
 export default function Home() {
