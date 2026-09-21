@@ -4,19 +4,19 @@ import ContactForm from "./contact-form";
 const projects = [
   {
     name: "日本の営業日カウンター",
-    description: "祝日と有給休暇を考慮して，任意の月の営業日数を計算するWebアプリ．",
+    description: "祝日と有給休暇を考慮して、任意の月の営業日数を計算するWebアプリです。",
     url: "https://business-day.k-lab-studio.com",
     status: "LIVE",
   },
   {
-    name: "iDeCo 積立シミュレーター",
-    description: "掛金の所得控除、運用益、受取時の税額をまとめて概算するiDeCoシミュレーター。",
+    name: "iDeCo 積立投資シミュレーター",
+    description: "掛金の所得控除、運用益、受取時の税額をまとめて概算するiDeCoシミュレーターです。",
     url: "https://ideco.k-lab-studio.com",
     status: "LIVE",
   },
   {
     name: "積立投資シミュレーター",
-    description: "初期投資額、毎月の積立額、想定利回りから、資産推移と税引前の概算資産額を試算するWebアプリ。",
+    description: "初期投資額、毎月の積立額、想定利回りから、資産推移と税引前の概算資産額を試算するWebアプリです。",
     url: "https://investment.k-lab-studio.com",
     status: "LIVE",
   },
@@ -60,9 +60,9 @@ export default function Home() {
         <p className="eyebrow">ABOUT</p>
         <h2>Profile</h2>
         <p className="section-copy">
-          AIを活用したアプリケーションを作っています．要件定義から設計，実装，テスト，クラウドへのデプロイなどをやっています．また，それらが実際にユーザーの課題解決や業務効率化に繋がることを意識しています．
+          AIを活用したアプリケーションを作っています。要件定義から設計、実装、テスト、クラウドへのデプロイなどをやっています。また、それらが実際にユーザーの課題解決や業務効率化に繋がることを意識しています。
 
-          これまでData Scientistとして統計・データ分析に携わり，現在はSoftware DeveloperとしてPython，TypeScript，Azureなどを使った開発に取り組んでいます．個人では定量的判断に基づくFX・株価指数先物のトレードを行っており，データとアルゴリズムを使った意思決定にも関心があります．
+          これまでData Scientistとして統計・データ分析に携わり、現在はSoftware DeveloperとしてPython、TypeScript、Azureなどを使った開発に取り組んでいます。個人では定量的判断に基づくFX・株価指数先物のトレードを行っており、データとアルゴリズムを使った意思決定にも関心があります。
         </p>
         <dl className="profile-facts">
           <div>
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
           <div>
             <dt>関心領域</dt>
-            <dd>Webアプリケーション，GenAI，クラウド，データ活用</dd>
+            <dd>Webアプリケーション、GenAI、クラウド、データ活用</dd>
           </div>
           <div>
             <dt>個人活動</dt>
