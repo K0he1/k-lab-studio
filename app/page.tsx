@@ -60,9 +60,10 @@ export default function Home() {
         <p className="eyebrow">ABOUT</p>
         <h2>Profile</h2>
         <p className="section-copy">
-          AIを活用したアプリケーションを作っています。要件定義から設計、実装、テスト、クラウドへのデプロイなどをやっています。また、それらが実際にユーザーの課題解決や業務効率化に繋がることを意識しています。
-
-          これまでData Scientistとして統計・データ分析に携わり、現在はSoftware DeveloperとしてPython、TypeScript、Azureなどを使った開発に取り組んでいます。個人では定量的判断に基づくFX・株価指数先物のトレードを行っており、データとアルゴリズムを使った意思決定にも関心があります。
+          PwC Japan では、AIエンジニアとして、AIを活用したアプリケーションを作っています。要件定義から設計、実装、テスト、クラウドへのデプロイ等、一通りやっています。最近は、アプリケーションの企画や関係者の期待値コントロール、AIとユーザーのインタラクション設計を特に意識しています。
+          <br />
+          <br />
+          以前は、ベンチャー企業のData Scientistとして統計・データ分析に携わっていました。個人的な活動としては、FX・株価指数先物のクオンツトレードや自分の勉強も兼ねた簡単なWebアプリの開発などをしています。
         </p>
         <dl className="profile-facts">
           <div>
@@ -71,15 +72,11 @@ export default function Home() {
           </div>
           <div>
             <dt>学歴</dt>
-            <dd>京都大学大学院・明治大学</dd>
+            <dd>明治大学（学士）・京都大学大学院（修士）</dd>
           </div>
           <div>
             <dt>関心領域</dt>
-            <dd>Webアプリケーション、GenAI、クラウド、データ活用</dd>
-          </div>
-          <div>
-            <dt>個人活動</dt>
-            <dd>FX・先物のクオンツトレード</dd>
+            <dd>Webアプリ開発、AI / LLM、データ分析、クオンツトレード</dd>
           </div>
         </dl>
       </section>

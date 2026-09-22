@@ -42,7 +42,7 @@ a { color: inherit; text-decoration: none; }
 .hero-cat img { border: 1px solid var(--line); border-radius: 28px; display: block; height: auto; width: 100%; }
 .eyebrow { color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .2em; margin: 0 0 20px; }
 .hero h1 { font-size: clamp(44px, 8vw, 88px); letter-spacing: -.06em; line-height: 1.08; margin: 0; }
-.hero-copy, .section-copy { color: var(--muted); font-size: 17px; line-height: 2; margin: 32px 0 0; max-width: 600px; }
+.hero-copy, .section-copy { color: var(--muted); font-size: 17px; line-height: 2; margin: 32px 0 0; max-width: 1000px; }
 .profile-facts { border-top: 1px solid var(--line); margin: 38px 0 0; max-width: 700px; }
 .profile-facts div { border-bottom: 1px solid var(--line); display: grid; gap: 20px; grid-template-columns: 80px 1fr; padding: 16px 0; }
 .profile-facts dt { color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .12em; }
