@@ -60,7 +60,7 @@ export default function Home() {
         <p className="eyebrow">ABOUT</p>
         <h2>Profile</h2>
         <p className="section-copy">
-          現在は、PwC Japan にて、サステナビリティ領域の業務支援・効率化を目指したAIアプリを作る仕事をしてます。
+          現在は、PwC Japan にて、サステナビリティ領域の業務支援・効率化を目指したAIアプリを作っています。
           要件定義から設計、実装、テスト、クラウドへのデプロイ等、一通りやっています。
           最近は、アプリケーションの企画やステークホルダーの期待値コントロール、AIとユーザーのインタラクション設計を意識しています。
           <br />
