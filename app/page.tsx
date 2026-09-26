@@ -28,11 +28,9 @@ export default function Home() {
       <header className="site-header">
         <a className="brand" href="#top">Kohei Yamaguchi</a>
         <nav aria-label="メインナビゲーション">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-          <a href="https://github.com/K0he1" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/kohei-yamaguchi-06429827a/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="#about">ABOUT</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#contact">CONTACT</a>
         </nav>
       </header>
 
@@ -57,8 +55,7 @@ export default function Home() {
       </section>
 
       <section className="section" id="about">
-        <p className="eyebrow">ABOUT</p>
-        <h2>Profile</h2>
+        <h2>ABOUT</h2>
         <p className="section-copy">
           現在は、PwC Japan にて、サステナビリティ領域の業務支援・効率化を目指したAIアプリを作っています。
           要件定義から設計、実装、テスト、クラウドへのデプロイ等、一通りやっています。
@@ -86,8 +83,7 @@ export default function Home() {
       <section className="section" id="projects">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">PROJECTS</p>
-            <h2>Portfolio</h2>
+            <h2>PROJECTS</h2>
           </div>
           <span className="project-count">{projects.length} projects</span>
         </div>
@@ -110,12 +106,12 @@ export default function Home() {
       </section>
 
       <section className="section" id="contact">
-        <p className="eyebrow">CONTACT</p>
-        <h2>Contact</h2>
+        <h2>CONTACT</h2>
         <p className="section-copy">
           仕事の依頼や制作物についてのお問い合わせはこちらから。
         </p>
         <ContactForm />
+        <br />
         <p className="contact-privacy-note">
           個人情報の取り扱いについては、<a href="/privacy">プライバシーポリシー</a>をご確認ください。
         </p>
