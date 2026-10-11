@@ -25,22 +25,21 @@ const projects = [
 export default function Home() {
   return (
     <main className="page-shell">
-      <header className="site-header">
-        <a className="brand" href="#top">Kohei Yamaguchi</a>
-        <nav aria-label="メインナビゲーション">
+      {/* <header className="site-header"> */}
+        {/* <a className="brand" href="#top">Kohei Yamaguchi</a> */}
+        {/* <nav aria-label="メインナビゲーション">
           <a href="#about">ABOUT</a>
           <a href="#projects">PROJECTS</a>
           <a href="#contact">CONTACT</a>
-        </nav>
-      </header>
+        </nav> */}
+      {/* </header> */}
 
       <section className="hero" id="top">
         <div className="hero-layout">
           <div className="hero-content">
-            <p className="eyebrow">SOFTWARE / CLOUD / LEARNING</p>
             <h1>K Lab Studio</h1>
             <p className="hero-copy">
-              K Lab Studioは私のプロフィールや制作物を紹介しつつ、お問い合わせを受け付けるポートフォリオサイトです。
+              K Lab Studioは私のプロフィールや開発したWebアプリを紹介しつつ、お問い合わせを受け付けるポートフォリオサイトです。
             </p>
             <div className="hero-links">
               <a className="button button-primary" href="#projects">Portfolio</a>
